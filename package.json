@@ -1,0 +1,21 @@
+{
+  "name": "mawaqit-dz-api",
+  "version": "1.0.0",
+  "description": "API that serves data from CSV file",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.2",
+    "date-fns": "^4.1.0",
+    "express": "^4.18.2",
+    "hijri-date": "^0.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
